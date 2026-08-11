@@ -1,0 +1,104 @@
+{
+  "course_code": "C177",
+  "created_at_utc": "2026-08-11T03:19:35+00:00",
+  "deterministic_status": "CONTINUE_RESEARCH",
+  "development": {
+    "benchmark": {
+      "annualised_return": 0.13902460729253852,
+      "annualised_volatility": 0.16771066364158166,
+      "average_exposure": 1.0,
+      "entry_count": 1,
+      "exit_count": 0,
+      "maximum_drawdown": -0.24670106535007708,
+      "periods": 1305,
+      "sharpe_ratio_rf0": 0.8601421654421,
+      "total_return": 0.9622788847948249,
+      "turnover_units": 0.0
+    },
+    "strategy": {
+      "annualised_return": 4.939551800897668e-05,
+      "annualised_volatility": 0.12055129861681493,
+      "average_exposure": 0.5318007662835249,
+      "benchmark_total_return_gap": -0.9620230601764612,
+      "entry_count": 16,
+      "exit_count": 15,
+      "maximum_drawdown": -0.2578480675810103,
+      "periods": 1305,
+      "sharpe_ratio_rf0": 0.06062182732466109,
+      "total_return": 0.0002558246183637092,
+      "turnover_units": 31.0
+    }
+  },
+  "friction_bps": 5.0,
+  "full": {
+    "benchmark": {
+      "annualised_return": 0.0645159014755583,
+      "annualised_volatility": 0.16950649598787362,
+      "average_exposure": 1.0,
+      "entry_count": 1,
+      "exit_count": 0,
+      "maximum_drawdown": -0.3457481640246727,
+      "periods": 2088,
+      "sharpe_ratio_rf0": 0.45358702349602936,
+      "total_return": 0.6787073182127052,
+      "turnover_units": 0.0
+    },
+    "strategy": {
+      "annualised_return": -0.0367235978173347,
+      "annualised_volatility": 0.12073856031271911,
+      "average_exposure": 0.5138888888888888,
+      "benchmark_total_return_gap": -0.9452670058858622,
+      "entry_count": 25,
+      "exit_count": 24,
+      "maximum_drawdown": -0.4143155690350693,
+      "periods": 2088,
+      "sharpe_ratio_rf0": -0.24949150077320684,
+      "total_return": -0.26655968767315696,
+      "turnover_units": 49.0
+    }
+  },
+  "limitations": [
+    "Historical and out-of-sample results do not guarantee future performance.",
+    "Daily bars and a basis-point friction model do not reproduce live order-book dynamics.",
+    "One liquid ETF and one rule provide an educational workflow, not an investment conclusion.",
+    "The free IEX feed has narrower coverage than a consolidated US market feed when that source mode is used."
+  ],
+  "out_of_sample": {
+    "benchmark": {
+      "annualised_return": -0.04899259725977512,
+      "annualised_volatility": 0.17222576933147654,
+      "average_exposure": 1.0,
+      "entry_count": 1,
+      "exit_count": 0,
+      "maximum_drawdown": -0.3457481640246721,
+      "periods": 783,
+      "sharpe_ratio_rf0": -0.20551994347718375,
+      "total_return": -0.14451134789220776,
+      "turnover_units": 0.0
+    },
+    "strategy": {
+      "annualised_return": -0.09503169152156465,
+      "annualised_volatility": 0.12094790786179774,
+      "average_exposure": 0.4840357598978289,
+      "benchmark_total_return_gap": -0.1222359238803109,
+      "entry_count": 10,
+      "exit_count": 9,
+      "maximum_drawdown": -0.32049253201076433,
+      "periods": 783,
+      "sharpe_ratio_rf0": -0.7648641520077996,
+      "total_return": -0.26674727177251867,
+      "turnover_units": 18.0
+    }
+  },
+  "split_date": "2023-01-01",
+  "status_reason": "Structural checks are clean and the bounded out-of-sample evidence is sufficient for a paper-only operational exercise.",
+  "strategy": "SPY long-only 20/50-day SMA crossover",
+  "structural_checks": {
+    "benchmark_present": true,
+    "declared_friction_applied": true,
+    "development_segment_present": true,
+    "input_fingerprint_matches": true,
+    "one_bar_signal_shift": true,
+    "out_of_sample_segment_present": true
+  }
+}

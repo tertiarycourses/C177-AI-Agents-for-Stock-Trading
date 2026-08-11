@@ -1,0 +1,12 @@
+{
+  "course_code": "C177",
+  "created_at_utc": "2026-08-11T03:19:36+00:00",
+  "data_csv_sha256": "3428691cb76e7672234f03269107c5fcfec25099032cd0a0617365126ec799ca",
+  "deterministic_status": "CONTINUE_RESEARCH",
+  "engine": "labs/resources/backtest_and_audit.py",
+  "hypothesis_sha256": "42e74da4cbccc5b8b4bf9fd5ef0673b6c2a5164517c2652630fa8c946dbec0ae",
+  "one_bar_shift": true,
+  "paper_only": true,
+  "quality_report_sha256": "ae9b42a7dd5af8b8fdcbabb63ae85ac50ad85fefbf1eeeeb147deadb438f0429",
+  "trial_count_this_run": 6
+}

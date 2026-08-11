@@ -1,0 +1,22 @@
+{
+  "controlling_status": "READY_FOR_BACKTEST",
+  "course_code": "C177",
+  "critical_observations": [
+    "The deterministic status controls the workflow.",
+    "No numeric value was recalculated by the model."
+  ],
+  "evidence_citations": [
+    "02-market-data/data_quality_report.json::$",
+    "02-market-data/data_quality_report.json::status",
+    "02-market-data/data_quality_report.json::structured_checks"
+  ],
+  "human_owner_required": true,
+  "limitations": [
+    "Template mode does not call a model.",
+    "The artifact remains bounded to the course scenario."
+  ],
+  "live_action_permitted": false,
+  "next_allowed_action": "Follow the deterministic status and obtain the named human review.",
+  "recommendation": "READY_FOR_BACKTEST",
+  "review_type": "data"
+}

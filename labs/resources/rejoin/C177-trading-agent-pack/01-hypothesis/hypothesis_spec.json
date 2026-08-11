@@ -1,0 +1,66 @@
+{
+  "adjustment": "all",
+  "asset_type": "US ETF",
+  "assumptions": [
+    "Daily adjusted bars are fit only for the bounded educational research question stated in the data contract",
+    "A 5 basis-point charge on each position change is a simplified friction model rather than a live fill forecast",
+    "The chronological split beginning 2023-01-01 is frozen before the backtest is inspected",
+    "A paper simulator receipt is operational evidence and not evidence of live execution quality or profitability"
+  ],
+  "bar_interval": "1Day",
+  "benchmark": "Buy-and-hold SPY over the same accepted dates and adjustment assumptions",
+  "course_code": "C177",
+  "data_end": "2025-12-31",
+  "data_start": "2018-01-01",
+  "entry_rule": "Enter long only when raw_signal changes from 0 to 1 after a completed daily bar",
+  "evidence_urls": [
+    "https://www.tertiarycourses.com.sg/ai-agents-for-trading.html",
+    "https://openai.github.io/openai-agents-python/",
+    "https://docs.alpaca.markets/us/docs/historical-stock-data-1",
+    "https://docs.alpaca.markets/us/docs/paper-trading",
+    "https://www.cmegroup.com/education/courses/trade-and-risk-management/proper-position-size",
+    "https://doi.org/10.6028/NIST.AI.100-1"
+  ],
+  "execution_timing": "Shift raw_signal by one row before applying the next daily close-to-close return",
+  "exit_rule": "Exit to cash only when raw_signal changes from 1 to 0 after a completed daily bar",
+  "fast_window": 20,
+  "feed": "iex",
+  "friction_bps": 5.0,
+  "human_owner": "Course Learner, reviewed by Course Trainer",
+  "hypothesis": "On accepted adjusted SPY daily bars, a long-only position held after the 20-day simple moving average crosses above the 50-day average may show different out-of-sample return and drawdown characteristics from buy-and-hold after declared friction; the historical test can weaken but cannot prove the idea.",
+  "live_order_requested": false,
+  "paper_only": true,
+  "position_state": "long_only_0_or_1",
+  "rationale": "A transparent trend rule is simple enough to audit for timing, data lineage, costs, and stability while still exercising the complete agent-led research workflow.",
+  "rejection_criteria": [
+    "Any critical market-data quality gate fails or the accepted CSV fingerprint changes",
+    "Signal timing uses current or future information instead of a one-row shift",
+    "The benchmark, development segment, or out-of-sample segment is missing",
+    "Out-of-sample evidence is too sparse, unstable, or materially weakened by declared friction",
+    "Any workflow step requests live credentials, a live endpoint, or autonomous execution"
+  ],
+  "risks": [
+    "Look-ahead bias from applying an unshifted signal",
+    "Feed coverage differences between IEX and consolidated data",
+    "Corporate-action or timestamp inconsistency",
+    "Overfitting through unreported trials or repeated holdout use",
+    "Under-modelled fees, spread, slippage, liquidity, and market impact",
+    "Regime change and unstable historical relationships",
+    "Model fabrication or incorrect interpretation of structured observations",
+    "Credential leakage, duplicate submission, or paper/live environment confusion"
+  ],
+  "sensitivity_friction_bps": [
+    0.0,
+    5.0,
+    10.0
+  ],
+  "signal_rule": "fast_sma = mean(close, 20); slow_sma = mean(close, 50); raw_signal = 1 when fast_sma > slow_sma else 0",
+  "slow_window": 50,
+  "split_date": "2023-01-01",
+  "status": "FROZEN_FOR_DATA",
+  "symbol": "SPY",
+  "timezone": "America/New_York",
+  "title": "SPY 20/50-Day Moving-Average Crossover Research Hypothesis",
+  "unknowns": [],
+  "version": "1.0"
+}

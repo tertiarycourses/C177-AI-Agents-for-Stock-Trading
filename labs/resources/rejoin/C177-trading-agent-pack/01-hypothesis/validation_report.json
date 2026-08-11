@@ -1,0 +1,17 @@
+{
+  "checked_at_utc": "2026-08-11T03:19:20+00:00",
+  "comparison_mismatches": {},
+  "course_code": "C177",
+  "fixed_field_mismatches": {},
+  "frozen_for_data": true,
+  "hypothesis_file": "labs/resources/rejoin/C177-trading-agent-pack/01-hypothesis/hypothesis_spec.json",
+  "live_order_requested": false,
+  "research_log_checked": true,
+  "research_log_unresolved": [],
+  "research_log_unresolved_count": 0,
+  "schema_errors": [],
+  "schema_valid": true,
+  "status": "FROZEN_FOR_DATA",
+  "unresolved_count": 0,
+  "unresolved_paths": []
+}

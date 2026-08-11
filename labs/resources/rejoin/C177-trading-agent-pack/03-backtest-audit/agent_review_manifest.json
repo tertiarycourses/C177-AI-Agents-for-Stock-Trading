@@ -1,0 +1,12 @@
+{
+  "action": "review-backtest",
+  "course_code": "C177",
+  "created_at_utc": "2026-08-11T03:19:37+00:00",
+  "mode": "template",
+  "model": "none",
+  "output_file": "backtest_agent_review.json",
+  "output_sha256": "089bec1ac5f58df0c6ee44af999447178a045b458d3472ebb86cdbd20529dced",
+  "paper_only": true,
+  "tools_exposed": [],
+  "trading_client_exposed": false
+}

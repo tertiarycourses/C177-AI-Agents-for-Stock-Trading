@@ -1,0 +1,12 @@
+{
+  "action": "draft",
+  "course_code": "C177",
+  "created_at_utc": "2026-08-11T03:18:50+00:00",
+  "mode": "template",
+  "model": "none",
+  "output_file": "hypothesis_spec.json",
+  "output_sha256": "42e74da4cbccc5b8b4bf9fd5ef0673b6c2a5164517c2652630fa8c946dbec0ae",
+  "paper_only": true,
+  "tools_exposed": [],
+  "trading_client_exposed": false
+}

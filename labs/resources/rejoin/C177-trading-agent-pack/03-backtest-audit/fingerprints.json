@@ -1,0 +1,19 @@
+{
+  "algorithm": "sha256",
+  "created_at_utc": "2026-08-11T03:20:33+00:00",
+  "file_count": 11,
+  "files": {
+    "agent_review_manifest.json": "18d8e5776439857dd14831a4ab3e35527307233c675e42272426b9247d6637dd",
+    "audit_log.md": "040949c7282e84d09bc87a5f6e88c20d1e8233851a6718a80308b312d76020c6",
+    "backtest_agent_review.json": "089bec1ac5f58df0c6ee44af999447178a045b458d3472ebb86cdbd20529dced",
+    "backtest_metrics.json": "8fd4749e276e59cc093f153de0de86121082f3b54d002684cd986c37b880a41f",
+    "equity_curve.csv": "26c6b1fd6f72f154145ab57a27f1819b14738348b2ee365adc5a2b89e0d0ca07",
+    "equity_curve.png": "d6c6a210aeb13a61bcb7eab25a12f9461521095e3a07d625a307d468d89a1da9",
+    "run_manifest.json": "111e2030056286e04015d3eb45e776b6a71b7d33c41491e65ede99ace0f018f9",
+    "sensitivity_report.json": "df7daef85b9fbd21be2ab690111d71a083fcce9f02b3107c546d149b94c6314c",
+    "signal_sample.csv": "5714f8221077958415e2932dc2a170777f85ab2db83da75070a3236935833baa",
+    "strategy_spec.json": "42e74da4cbccc5b8b4bf9fd5ef0673b6c2a5164517c2652630fa8c946dbec0ae",
+    "trades.csv": "b3b34b2f328b499d598fa692129c3517c469e2e5039e8aea03aa8dc1f754d100"
+  },
+  "root": "03-backtest-audit"
+}

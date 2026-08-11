@@ -1,0 +1,26 @@
+{
+  "adjustment": "synthetic series; no corporate actions",
+  "asset_type": "US ETF",
+  "course_code": "C177",
+  "csv_file": "spy_daily.csv",
+  "csv_sha256": "3428691cb76e7672234f03269107c5fcfec25099032cd0a0617365126ec799ca",
+  "currency": "USD",
+  "endpoint": "labs/resources/fetch_validate_data.py::synthetic_bars",
+  "entitlement_scope": "No market entitlement; generated values",
+  "exchange_timezone": "America/New_York",
+  "feed": "synthetic",
+  "intended_use": "Synthetic rejoin and software-verification data only; not real market data and not evidence about SPY performance",
+  "interval": "1Day",
+  "provider": "C177 deterministic synthetic rejoin generator",
+  "requested_end": "2025-12-31",
+  "requested_start": "2018-01-01",
+  "response_timezone": "UTC",
+  "retrieved_at_utc": "2026-08-11T03:19:22+00:00",
+  "session": "Synthetic business-day calendar",
+  "symbol": "SPY",
+  "transformations": [
+    "sorted by timestamp",
+    "selected standard OHLCV columns",
+    "timestamp serialised as ISO-8601 UTC"
+  ]
+}

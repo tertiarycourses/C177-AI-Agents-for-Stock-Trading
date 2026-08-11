@@ -1,0 +1,84 @@
+{
+  "checks": [
+    {
+      "critical": true,
+      "details": "missing_columns=[]",
+      "name": "required_schema",
+      "ok": true
+    },
+    {
+      "critical": true,
+      "details": "monotonic_increasing=True",
+      "name": "ordered_timestamps",
+      "ok": true
+    },
+    {
+      "critical": true,
+      "details": "duplicate_timestamps=0",
+      "name": "unique_timestamps",
+      "ok": true
+    },
+    {
+      "critical": true,
+      "details": "missing_required_values=0",
+      "name": "required_values",
+      "ok": true
+    },
+    {
+      "critical": true,
+      "details": "invalid_ohlc_rows=0",
+      "name": "ohlc_consistency",
+      "ok": true
+    },
+    {
+      "critical": true,
+      "details": "negative_volume_rows=0",
+      "name": "non_negative_volume",
+      "ok": true
+    },
+    {
+      "critical": true,
+      "details": "row_count=2088",
+      "name": "minimum_history",
+      "ok": true
+    },
+    {
+      "critical": true,
+      "details": "start_gap_days=0; end_gap_days=0",
+      "name": "requested_date_coverage",
+      "ok": true
+    },
+    {
+      "critical": false,
+      "details": "gaps_over_7_days=0",
+      "name": "unexpected_long_calendar_gaps",
+      "ok": true
+    },
+    {
+      "critical": true,
+      "details": "required lineage fields present",
+      "name": "complete_data_contract",
+      "ok": true
+    },
+    {
+      "critical": true,
+      "details": "csv_sha256=3428691cb76e7672234f03269107c5fcfec25099032cd0a0617365126ec799ca",
+      "name": "csv_fingerprint",
+      "ok": true
+    }
+  ],
+  "course_code": "C177",
+  "created_at_utc": "2026-08-11T03:19:22+00:00",
+  "critical_failures": 0,
+  "csv_sha256": "3428691cb76e7672234f03269107c5fcfec25099032cd0a0617365126ec799ca",
+  "duplicate_timestamps": 0,
+  "first_timestamp": "2018-01-01T00:00:00+00:00",
+  "invalid_ohlc_rows": 0,
+  "last_timestamp": "2025-12-31T00:00:00+00:00",
+  "long_calendar_gaps": 0,
+  "missing_required_values": 0,
+  "negative_volume_rows": 0,
+  "row_count": 2088,
+  "status": "READY_FOR_BACKTEST",
+  "warnings": 0
+}
