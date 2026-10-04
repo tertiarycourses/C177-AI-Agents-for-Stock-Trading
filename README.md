@@ -71,8 +71,8 @@ All courseware is generated from one source (`.agents/skills/non-wsq-courseware-
 You need Python 3.11+, an OpenAI API key (or trainer-provided equivalent) and an Alpaca **paper-only** account.
 
 ```bash
-git clone https://github.com/tertiarycourses/C177-AI-Agents-for-Trading.git
-cd C177-AI-Agents-for-Trading
+git clone https://github.com/tertiarycourses/C177-AI-Agents-for-Stock-Trading.git
+cd C177-AI-Agents-for-Stock-Trading
 python -m venv .venv
 # Windows PowerShell: .\.venv\Scripts\Activate.ps1   macOS/Linux: source .venv/bin/activate
 python -m pip install -r labs/resources/requirements.txt
