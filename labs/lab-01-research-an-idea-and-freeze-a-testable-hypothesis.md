@@ -1,7 +1,7 @@
 # Lab 1 — Research an Idea and Freeze a Testable Hypothesis
 
-- **Course:** AI Agents for Trading (C177)
-- **Version:** v1.0 (11 August 2026)
+- **Course:** AI Agents for Stock Trading (C177)
+- **Version:** v1.1 (4 October 2026)
 - **Topic 1:** From Trading Idea to Quality Market Data
 - **Maps to:** LO1 and LO2: operate a bounded tool-using research agent and convert one trading idea into a cited, structured, falsifiable HYPER hypothesis
 - **Tools:** Python 3.11+, OpenAI Agents SDK, trainer-approved OpenAI API key, Pydantic, scenario brief, approved source notes, text or JSON editor

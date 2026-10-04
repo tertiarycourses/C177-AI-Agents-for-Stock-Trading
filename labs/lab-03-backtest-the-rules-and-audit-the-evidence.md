@@ -1,7 +1,7 @@
 # Lab 3 — Backtest the Rules and Audit the Evidence
 
-- **Course:** AI Agents for Trading (C177)
-- **Version:** v1.0 (11 August 2026)
+- **Course:** AI Agents for Stock Trading (C177)
+- **Version:** v1.1 (4 October 2026)
 - **Topic 2:** The Six-Step Trading Workflow and Staying in Control
 - **Maps to:** LO4: run a causal deterministic backtest, compare a benchmark and holdout, stress stated assumptions, and record an auditable research decision
 - **Tools:** pandas, NumPy, Matplotlib, deterministic C177 backtest engine, OpenAI Agents SDK read-only artifact review, Markdown editor

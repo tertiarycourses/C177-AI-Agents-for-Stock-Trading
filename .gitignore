@@ -39,3 +39,7 @@ __pycache__/
 
 # Superseded courseware versions (kept locally + on Drive, not in git)
 courseware/archive/
+
+# Private source references (never published)
+reference/
+assessment/

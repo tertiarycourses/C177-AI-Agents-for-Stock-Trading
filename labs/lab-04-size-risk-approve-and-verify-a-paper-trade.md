@@ -1,7 +1,7 @@
 # Lab 4 — Size Risk, Approve, and Verify a Paper Trade
 
-- **Course:** AI Agents for Trading (C177)
-- **Version:** v1.0 (11 August 2026)
+- **Course:** AI Agents for Stock Trading (C177)
+- **Version:** v1.1 (4 October 2026)
 - **Topic 2:** The Six-Step Trading Workflow and Staying in Control
 - **Maps to:** LO5 and LO6: calculate a bounded quantity, generate and review a paper-order ticket, apply the human gate, submit only to simulation, and verify or roll back the result
 - **Tools:** Alpaca TradingClient in paper mode, deterministic C177 risk and order guardrails, OpenAI Agents SDK read-only ticket review, paper dashboard, text editor

@@ -1,4 +1,4 @@
-# AI Agents for Trading (C177) — Hands-On Labs
+# AI Agents for Stock Trading (C177) — Hands-On Labs
 
 4 labs across 2 topics · 1 day · 7.5 instructional hours · 8 clock hours including tea breaks · 4 hours 5 minutes hands-on labs
 
@@ -34,4 +34,4 @@ If you join after Lab 1 or resume after a gap, do not skip the connected inputs.
 > Use only authorised accounts, placeholder or synthetic inputs, and paper-trading credentials. This course does not provide financial advice and includes no live-order path.
 
 
-_Tertiary Infotech Academy Pte Ltd · C177 · v1.0 (11 August 2026)_
+_Tertiary Infotech Academy Pte Ltd · C177 · v1.1 (4 October 2026)_

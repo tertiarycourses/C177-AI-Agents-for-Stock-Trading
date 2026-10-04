@@ -1,6 +1,6 @@
-# AI Agents for Trading (C177) — Learner Guide
+# AI Agents for Stock Trading (C177) — Learner Guide
 
-**Course Code:** C177  |  **Conducted by:** Tertiary Infotech Academy Pte Ltd (UEN 201200696W)  |  **Version v1.0 · 11 August 2026**
+**Course Code:** C177  |  **Conducted by:** Tertiary Infotech Academy Pte Ltd (UEN 201200696W)  |  **Version v1.1 · 4 October 2026**
 
 ## Contents
 
@@ -53,7 +53,7 @@
 
 ## Introduction
 
-AI Agents for Trading is a one-day, beginner-level course about disciplined trading research, not automated profit. You will build a bounded research agent that can organise a hypothesis, call approved Python tools, interpret structured observations, and prepare a paper-order exercise. Calculations and controls remain deterministic, consequential steps require human approval, and the supplied execution path cannot send a live order.
+AI Agents for Stock Trading is a one-day, beginner-level course about disciplined trading research, not automated profit. You will build a bounded research agent that can organise a hypothesis, call approved Python tools, interpret structured observations, and prepare a paper-order exercise. Calculations and controls remain deterministic, consequential steps require human approval, and the supplied execution path cannot send a live order.
 
 All four labs use one SPY daily-bar moving-average scenario and one C177-trading-agent-pack. Each lab begins from a verified checkpoint and produces versioned JSON, CSV, Markdown, image, or receipt evidence for the next lab. The strategy is deliberately simple so the course can focus on research quality, data lineage, causal testing, risk limits, paper execution, and the verify-then-trust habit.
 

@@ -1,11 +1,11 @@
-"""Single source of truth for AI Agents for Trading (C177)."""
+"""Single source of truth for AI Agents for Stock Trading (C177)."""
 
 # ------------------------------------------------------------------ metadata
-TITLE = "AI Agents for Trading (C177)"
-SHORT_TITLE = "AI Agents for Trading (C177)"
+TITLE = "AI Agents for Stock Trading (C177)"
+SHORT_TITLE = "AI Agents for Stock Trading (C177)"
 COURSE_CODE = "C177"
-VERSION = "v1.0"
-VERSION_DATE = "11 August 2026"
+VERSION = "v1.1"
+VERSION_DATE = "4 October 2026"
 ORG = "Tertiary Infotech Academy Pte Ltd"
 UEN = "UEN: 201200696W"
 TRAINER = "Course Trainer"
@@ -698,7 +698,7 @@ LAB_SHOTS = {}
 
 # ------------------------------------------------------------------ learner guide content
 LG_INTRO = (
-    "AI Agents for Trading is a one-day, beginner-level course about disciplined trading research, not automated profit. "
+    "AI Agents for Stock Trading is a one-day, beginner-level course about disciplined trading research, not automated profit. "
     "You will build a bounded research agent that can organise a hypothesis, call approved Python tools, interpret structured observations, and prepare a paper-order exercise. "
     "Calculations and controls remain deterministic, consequential steps require human approval, and the supplied execution path cannot send a live order."
 )
@@ -800,5 +800,6 @@ THANK_YOU = dict(
 
 # ------------------------------------------------------------------ version history
 VERSION_HISTORY = [
-    ("1.0", VERSION_DATE, "Initial aligned non-WSQ release with two topics, four connected labs, and a paper-only trading workflow.", TRAINER),
+    ("1.0", "11 August 2026", "Initial aligned non-WSQ release with two topics, four connected labs, and a paper-only trading workflow.", TRAINER),
+    ("1.1", VERSION_DATE, "Course retitled from AI Agents for Trading to AI Agents for Stock Trading.", TRAINER),
 ]

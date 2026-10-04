@@ -1,7 +1,7 @@
 # Lab 2 — Fetch Market Data and Prove It Is Fit for Purpose
 
-- **Course:** AI Agents for Trading (C177)
-- **Version:** v1.0 (11 August 2026)
+- **Course:** AI Agents for Stock Trading (C177)
+- **Version:** v1.1 (4 October 2026)
 - **Topic 1:** From Trading Idea to Quality Market Data
 - **Maps to:** LO3: connect the workflow to authorised Alpaca market data, record the data contract, run deterministic quality gates, and let the agent interpret only the verified report
 - **Tools:** Alpaca Paper Only account, alpaca-py StockHistoricalDataClient, pandas, deterministic quality validator, OpenAI Agents SDK read-only artifact tool

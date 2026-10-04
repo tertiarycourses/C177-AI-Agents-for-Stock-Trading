@@ -4,7 +4,7 @@ These notes define the agent's evidence boundary in Lab 1. The agent may organis
 
 ## Course outline
 
-- Tertiary Courses, **AI Agents for Trading (C177)**: https://www.tertiarycourses.com.sg/ai-agents-for-trading.html
+- Tertiary Courses, **AI Agents for Stock Trading (C177)**: https://www.tertiarycourses.com.sg/ai-agents-for-stock-trading.html
   - One beginner day.
   - Topic 1 covers AI trading agents, idea research, structured hypotheses, reliable market data, and data quality.
   - Topic 2 covers rule definition, backtesting, audit, risk sizing, paper trades, and verify-then-trust checkpoints.

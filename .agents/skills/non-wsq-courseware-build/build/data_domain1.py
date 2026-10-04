@@ -1,4 +1,4 @@
-"""Connected labs for Topic 1 of AI Agents for Trading (C177)."""
+"""Connected labs for Topic 1 of AI Agents for Stock Trading (C177)."""
 
 DOMAIN1 = [
     dict(
